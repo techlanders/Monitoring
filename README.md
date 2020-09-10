@@ -60,11 +60,12 @@ http://localhost:9100
 10) Monitor your resources against various metrics.
 
 
-To Clean up:
+#Clean up:
 
-# Delete containers
+To Delete containers:
 $ docker container rm -f prom prom-dashboard node-exporter cadvisor
-# Delete images
+
+To Delete images
 $ docker image rm prom/prometheus:v2.14.0 grafana/grafana:6.4.4 prom/node-exporter google/cadvisor
 
 
