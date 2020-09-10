@@ -60,7 +60,7 @@ http://localhost:9100
 10) Monitor your resources against various metrics.
 
 
-#Clean up:
+# Clean up:
 
 To Delete containers:
 $ docker container rm -f prom prom-dashboard node-exporter cadvisor
